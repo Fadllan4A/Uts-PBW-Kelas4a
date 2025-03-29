@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Muhammad Fadllan Ziadh Ramadhan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>👋 Selamat Datang di Portfolio Saya</h1>
+        <p>Saya <b>Muhammad Fadllan Ziadh Ramadhan</b>, seorang mahasiswa Sistem Informasi dengan minat dalam Data Warehouse dan Statistik.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#" onclick="tampilkanHalaman('beranda')">Beranda</a></li>
+            <li><a href="#" onclick="tampilkanHalaman('portfolio')">Portfolio</a></li>
+            <li><a href="#" onclick="tampilkanHalaman('prestasi')">Prestasi</a></li>
+            <li><a href="#" onclick="tampilkanHalaman('contact')">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="beranda" class="halaman aktif">
+        <h2>🌟 Tentang Saya</h2>
+        <p>Saya adalah mahasiswa Sistem Informasi yang memiliki passion dalam <b>Data Warehouse, Pemrograman Berbasis Objek, dan Analisis Statistik</b>. Saya selalu berusaha mengembangkan keterampilan saya dalam teknologi terbaru.</p>
+    </section>
+
+    <section id="portfolio" class="halaman">
+        <h2>💼 Portfolio</h2>
+        <p>Berikut adalah beberapa proyek yang pernah saya buat:</p>
+        <ul>
+            <li><b>Sistem Manajemen Data Warehouse</b> - Mengembangkan solusi integrasi data skala besar.</li>
+            <li><b>Analisis Data Statistik</b> - Menganalisis dataset kompleks menggunakan Python dan SQL.</li>
+            <li><b>Aplikasi Web Portfolio</b> - Membuat website personal menggunakan HTML, CSS, dan JavaScript.</li>
+        </ul>
+    </section>
+
+    <section id="prestasi" class="halaman">
+        <h2>🏆 Prestasi</h2>
+        <ul>
+            <li>✔️ Juara 1 Lomba Pengolahan Data Mahasiswa Nasional 2024</li>
+            <li>✔️ Sertifikasi Data Science dari Coursera & Google</li>
+            <li>✔️ Peserta Terbaik Workshop Machine Learning 2023</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="halaman">
+        <h2>📞 Hubungi Saya</h2>
+        <p>Jika ingin bekerja sama atau sekadar berdiskusi, silakan hubungi saya:</p>
+        <ul>
+            <li><b>Email:</b> fadllanganteng223@gmail.com</li>
+            <li><b>Nomor HP:</b> 0815-7306-4239</li>
+            <li><b>LinkedIn:</b> <a href="#">https://www.linkedin.com/in/mfadllanziadhramadhan/</a></li>
+        </ul>
+        <button onclick="tampilkanHalaman('beranda')">🔙 Kembali ke Beranda</button>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
